@@ -1,0 +1,13 @@
+[package]
+name = "disasm-core"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.89"
+license = "MIT"
+description = "PE/ELF/Mach-O container probe + entry-point resolver (goblin only; no Capstone) — trimmed subset of vgi-disasm disasm-core"
+
+[dependencies]
+goblin = "0.10"
+
+[lints.rust]
+unsafe_code = "forbid"
